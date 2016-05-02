@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C95B9521CC77297005C07C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95B9511CC77297005C07C7 /* AppDelegate.swift */; };
+		8C95B9541CC77297005C07C7 /* RussianABCDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95B9531CC77297005C07C7 /* RussianABCDetailViewController.swift */; };
+		8C95B9571CC77297005C07C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C95B9551CC77297005C07C7 /* Main.storyboard */; };
+		8C95B95A1CC77297005C07C7 /* RussianTeacher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C95B9581CC77297005C07C7 /* RussianTeacher.xcdatamodeld */; };
+		8C95B95C1CC77297005C07C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C95B95B1CC77297005C07C7 /* Assets.xcassets */; };
+		8C95B95F1CC77297005C07C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C95B95D1CC77297005C07C7 /* LaunchScreen.storyboard */; };
+		8C95B96A1CC77297005C07C7 /* RussianTeacherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95B9691CC77297005C07C7 /* RussianTeacherTests.swift */; };
+		8C95B9751CC77298005C07C7 /* RussianTeacherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95B9741CC77298005C07C7 /* RussianTeacherUITests.swift */; };
+		8C95B9841CC77C82005C07C7 /* CyrillCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95B9831CC77C82005C07C7 /* CyrillCharacter.swift */; };
+		8C95B9861CC782C0005C07C7 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95B9851CC782C0005C07C7 /* DataModel.swift */; };
+		8C95B9881CC79E90005C07C7 /* RussianABCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95B9871CC79E90005C07C7 /* RussianABCTableViewController.swift */; };
+		8CECE5EF1CCA5AEC00E1EFC6 /* CyrillCharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CECE5ED1CCA5AEC00E1EFC6 /* CyrillCharacterTableViewCell.swift */; };
+		8CECE5F31CCF962800E1EFC6 /* OverviewUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CECE5F21CCF962800E1EFC6 /* OverviewUIViewController.swift */; };
+		8CECE5F51CD20D5300E1EFC6 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CECE5F41CD20D5300E1EFC6 /* OverviewView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C95B9661CC77297005C07C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C95B9461CC77297005C07C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C95B94D1CC77297005C07C7;
+			remoteInfo = RussianTeacher;
+		};
+		8C95B9711CC77298005C07C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C95B9461CC77297005C07C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C95B94D1CC77297005C07C7;
+			remoteInfo = RussianTeacher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C95B94E1CC77297005C07C7 /* RussianTeacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianTeacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C95B9511CC77297005C07C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C95B9531CC77297005C07C7 /* RussianABCDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianABCDetailViewController.swift; sourceTree = "<group>"; };
+		8C95B9561CC77297005C07C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C95B9591CC77297005C07C7 /* RussianTeacher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RussianTeacher.xcdatamodel; sourceTree = "<group>"; };
+		8C95B95B1CC77297005C07C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C95B95E1CC77297005C07C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C95B9601CC77297005C07C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C95B9651CC77297005C07C7 /* RussianTeacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussianTeacherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C95B9691CC77297005C07C7 /* RussianTeacherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianTeacherTests.swift; sourceTree = "<group>"; };
+		8C95B96B1CC77298005C07C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C95B9701CC77298005C07C7 /* RussianTeacherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussianTeacherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C95B9741CC77298005C07C7 /* RussianTeacherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianTeacherUITests.swift; sourceTree = "<group>"; };
+		8C95B9761CC77298005C07C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C95B9831CC77C82005C07C7 /* CyrillCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyrillCharacter.swift; sourceTree = "<group>"; };
+		8C95B9851CC782C0005C07C7 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8C95B9871CC79E90005C07C7 /* RussianABCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RussianABCTableViewController.swift; sourceTree = "<group>"; };
+		8CECE5ED1CCA5AEC00E1EFC6 /* CyrillCharacterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyrillCharacterTableViewCell.swift; sourceTree = "<group>"; };
+		8CECE5F21CCF962800E1EFC6 /* OverviewUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewUIViewController.swift; sourceTree = "<group>"; };
+		8CECE5F41CD20D5300E1EFC6 /* OverviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C95B94B1CC77297005C07C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C95B9621CC77297005C07C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C95B96D1CC77298005C07C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C95B9451CC77297005C07C7 = {
+			isa = PBXGroup;
+			children = (
+				8C95B9501CC77297005C07C7 /* RussianTeacher */,
+				8C95B9681CC77297005C07C7 /* RussianTeacherTests */,
+				8C95B9731CC77298005C07C7 /* RussianTeacherUITests */,
+				8C95B94F1CC77297005C07C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C95B94F1CC77297005C07C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C95B94E1CC77297005C07C7 /* RussianTeacher.app */,
+				8C95B9651CC77297005C07C7 /* RussianTeacherTests.xctest */,
+				8C95B9701CC77298005C07C7 /* RussianTeacherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C95B9501CC77297005C07C7 /* RussianTeacher */ = {
+			isa = PBXGroup;
+			children = (
+				8CECE5F11CCF960C00E1EFC6 /* Overview */,
+				8CECE5E81CCA5A1700E1EFC6 /* TableViewCell */,
+				8C95B9891CC79F73005C07C7 /* RussianABC */,
+				8C95B9821CC77C5A005C07C7 /* Model */,
+				8C95B9511CC77297005C07C7 /* AppDelegate.swift */,
+				8C95B9551CC77297005C07C7 /* Main.storyboard */,
+				8C95B95B1CC77297005C07C7 /* Assets.xcassets */,
+				8C95B95D1CC77297005C07C7 /* LaunchScreen.storyboard */,
+				8C95B9601CC77297005C07C7 /* Info.plist */,
+				8C95B9581CC77297005C07C7 /* RussianTeacher.xcdatamodeld */,
+			);
+			path = RussianTeacher;
+			sourceTree = "<group>";
+		};
+		8C95B9681CC77297005C07C7 /* RussianTeacherTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C95B9691CC77297005C07C7 /* RussianTeacherTests.swift */,
+				8C95B96B1CC77298005C07C7 /* Info.plist */,
+			);
+			path = RussianTeacherTests;
+			sourceTree = "<group>";
+		};
+		8C95B9731CC77298005C07C7 /* RussianTeacherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C95B9741CC77298005C07C7 /* RussianTeacherUITests.swift */,
+				8C95B9761CC77298005C07C7 /* Info.plist */,
+			);
+			path = RussianTeacherUITests;
+			sourceTree = "<group>";
+		};
+		8C95B9821CC77C5A005C07C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C95B9831CC77C82005C07C7 /* CyrillCharacter.swift */,
+				8C95B9851CC782C0005C07C7 /* DataModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8C95B9891CC79F73005C07C7 /* RussianABC */ = {
+			isa = PBXGroup;
+			children = (
+				8C95B9871CC79E90005C07C7 /* RussianABCTableViewController.swift */,
+				8C95B9531CC77297005C07C7 /* RussianABCDetailViewController.swift */,
+			);
+			name = RussianABC;
+			sourceTree = "<group>";
+		};
+		8CECE5E81CCA5A1700E1EFC6 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8CECE5ED1CCA5AEC00E1EFC6 /* CyrillCharacterTableViewCell.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		8CECE5F11CCF960C00E1EFC6 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				8CECE5F21CCF962800E1EFC6 /* OverviewUIViewController.swift */,
+				8CECE5F41CD20D5300E1EFC6 /* OverviewView.swift */,
+			);
+			name = Overview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C95B94D1CC77297005C07C7 /* RussianTeacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C95B9791CC77298005C07C7 /* Build configuration list for PBXNativeTarget "RussianTeacher" */;
+			buildPhases = (
+				8C95B94A1CC77297005C07C7 /* Sources */,
+				8C95B94B1CC77297005C07C7 /* Frameworks */,
+				8C95B94C1CC77297005C07C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RussianTeacher;
+			productName = RussianTeacher;
+			productReference = 8C95B94E1CC77297005C07C7 /* RussianTeacher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C95B9641CC77297005C07C7 /* RussianTeacherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C95B97C1CC77298005C07C7 /* Build configuration list for PBXNativeTarget "RussianTeacherTests" */;
+			buildPhases = (
+				8C95B9611CC77297005C07C7 /* Sources */,
+				8C95B9621CC77297005C07C7 /* Frameworks */,
+				8C95B9631CC77297005C07C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C95B9671CC77297005C07C7 /* PBXTargetDependency */,
+			);
+			name = RussianTeacherTests;
+			productName = RussianTeacherTests;
+			productReference = 8C95B9651CC77297005C07C7 /* RussianTeacherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C95B96F1CC77298005C07C7 /* RussianTeacherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C95B97F1CC77298005C07C7 /* Build configuration list for PBXNativeTarget "RussianTeacherUITests" */;
+			buildPhases = (
+				8C95B96C1CC77298005C07C7 /* Sources */,
+				8C95B96D1CC77298005C07C7 /* Frameworks */,
+				8C95B96E1CC77298005C07C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C95B9721CC77298005C07C7 /* PBXTargetDependency */,
+			);
+			name = RussianTeacherUITests;
+			productName = RussianTeacherUITests;
+			productReference = 8C95B9701CC77298005C07C7 /* RussianTeacherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C95B9461CC77297005C07C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dudas, Peter";
+				TargetAttributes = {
+					8C95B94D1CC77297005C07C7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8C95B9641CC77297005C07C7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8C95B94D1CC77297005C07C7;
+					};
+					8C95B96F1CC77298005C07C7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8C95B94D1CC77297005C07C7;
+					};
+				};
+			};
+			buildConfigurationList = 8C95B9491CC77297005C07C7 /* Build configuration list for PBXProject "RussianTeacher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C95B9451CC77297005C07C7;
+			productRefGroup = 8C95B94F1CC77297005C07C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C95B94D1CC77297005C07C7 /* RussianTeacher */,
+				8C95B9641CC77297005C07C7 /* RussianTeacherTests */,
+				8C95B96F1CC77298005C07C7 /* RussianTeacherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C95B94C1CC77297005C07C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C95B95F1CC77297005C07C7 /* LaunchScreen.storyboard in Resources */,
+				8C95B95C1CC77297005C07C7 /* Assets.xcassets in Resources */,
+				8C95B9571CC77297005C07C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C95B9631CC77297005C07C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C95B96E1CC77298005C07C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C95B94A1CC77297005C07C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C95B9861CC782C0005C07C7 /* DataModel.swift in Sources */,
+				8C95B9841CC77C82005C07C7 /* CyrillCharacter.swift in Sources */,
+				8C95B9541CC77297005C07C7 /* RussianABCDetailViewController.swift in Sources */,
+				8CECE5F51CD20D5300E1EFC6 /* OverviewView.swift in Sources */,
+				8C95B95A1CC77297005C07C7 /* RussianTeacher.xcdatamodeld in Sources */,
+				8CECE5EF1CCA5AEC00E1EFC6 /* CyrillCharacterTableViewCell.swift in Sources */,
+				8CECE5F31CCF962800E1EFC6 /* OverviewUIViewController.swift in Sources */,
+				8C95B9881CC79E90005C07C7 /* RussianABCTableViewController.swift in Sources */,
+				8C95B9521CC77297005C07C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C95B9611CC77297005C07C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C95B96A1CC77297005C07C7 /* RussianTeacherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C95B96C1CC77298005C07C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C95B9751CC77298005C07C7 /* RussianTeacherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C95B9671CC77297005C07C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C95B94D1CC77297005C07C7 /* RussianTeacher */;
+			targetProxy = 8C95B9661CC77297005C07C7 /* PBXContainerItemProxy */;
+		};
+		8C95B9721CC77298005C07C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C95B94D1CC77297005C07C7 /* RussianTeacher */;
+			targetProxy = 8C95B9711CC77298005C07C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C95B9551CC77297005C07C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C95B9561CC77297005C07C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C95B95D1CC77297005C07C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C95B95E1CC77297005C07C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C95B9771CC77298005C07C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C95B9781CC77298005C07C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C95B97A1CC77298005C07C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RussianTeacher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sap.com.RussianTeacher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C95B97B1CC77298005C07C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RussianTeacher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sap.com.RussianTeacher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C95B97D1CC77298005C07C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RussianTeacherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sap.com.RussianTeacherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussianTeacher.app/RussianTeacher";
+			};
+			name = Debug;
+		};
+		8C95B97E1CC77298005C07C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RussianTeacherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sap.com.RussianTeacherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussianTeacher.app/RussianTeacher";
+			};
+			name = Release;
+		};
+		8C95B9801CC77298005C07C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RussianTeacherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sap.com.RussianTeacherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RussianTeacher;
+			};
+			name = Debug;
+		};
+		8C95B9811CC77298005C07C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RussianTeacherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sap.com.RussianTeacherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RussianTeacher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C95B9491CC77297005C07C7 /* Build configuration list for PBXProject "RussianTeacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C95B9771CC77298005C07C7 /* Debug */,
+				8C95B9781CC77298005C07C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C95B9791CC77298005C07C7 /* Build configuration list for PBXNativeTarget "RussianTeacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C95B97A1CC77298005C07C7 /* Debug */,
+				8C95B97B1CC77298005C07C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C95B97C1CC77298005C07C7 /* Build configuration list for PBXNativeTarget "RussianTeacherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C95B97D1CC77298005C07C7 /* Debug */,
+				8C95B97E1CC77298005C07C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C95B97F1CC77298005C07C7 /* Build configuration list for PBXNativeTarget "RussianTeacherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C95B9801CC77298005C07C7 /* Debug */,
+				8C95B9811CC77298005C07C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C95B9581CC77297005C07C7 /* RussianTeacher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C95B9591CC77297005C07C7 /* RussianTeacher.xcdatamodel */,
+			);
+			currentVersion = 8C95B9591CC77297005C07C7 /* RussianTeacher.xcdatamodel */;
+			path = RussianTeacher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C95B9461CC77297005C07C7 /* Project object */;
+}
