@@ -50,5 +50,18 @@ class DataModel {
         ]
     }
     
+    var categories: [BasicPhraseCategory]{
+        return [
+            BasicPhraseCategory(name: "Greeting"),
+            BasicPhraseCategory(name: "Number"),
+            BasicPhraseCategory(name: "Introduction")
+        ]
+    }
     
+    /*var phrases: [BasicPhrase] {
+          return [
+            BasicPhrase(phraseCategory: Category.Greeting, phraseTest: "Привет", pronounciation: "pree-vyet", translation: "Hi"),
+            BasicPhrase(phraseCategory: Category.Introduction, phraseTest: "Меня зовут ", pronounciation: "men-ya za-voot", translation: "My name is ")
+        ]
+    }*/
 }
