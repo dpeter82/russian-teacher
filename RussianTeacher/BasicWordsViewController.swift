@@ -14,6 +14,7 @@ class BasicWordsViewController: UIViewController, UIPickerViewDataSource,UIPicke
         super.viewDidLoad()
         
         BasicPhraceCategoryPicker.dataSource = self
+        BasicPhraceCategoryPicker.delegate = self
 
         // Do any additional setup after loading the view.
     }
