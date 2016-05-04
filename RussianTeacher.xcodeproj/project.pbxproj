@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264491EC1CD7AD300071A652 /* BasicWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264491EB1CD7AD300071A652 /* BasicWordsViewController.swift */; };
+		264491EE1CD7AFF80071A652 /* BasicPhrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264491ED1CD7AFF80071A652 /* BasicPhrase.swift */; };
+		264491F01CD8F4AF0071A652 /* BasicPhraseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264491EF1CD8F4AF0071A652 /* BasicPhraseCategory.swift */; };
 		8C95B9521CC77297005C07C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95B9511CC77297005C07C7 /* AppDelegate.swift */; };
 		8C95B9541CC77297005C07C7 /* RussianABCDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95B9531CC77297005C07C7 /* RussianABCDetailViewController.swift */; };
 		8C95B9571CC77297005C07C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C95B9551CC77297005C07C7 /* Main.storyboard */; };
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		264491EB1CD7AD300071A652 /* BasicWordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicWordsViewController.swift; sourceTree = "<group>"; };
+		264491ED1CD7AFF80071A652 /* BasicPhrase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicPhrase.swift; sourceTree = "<group>"; };
+		264491EF1CD8F4AF0071A652 /* BasicPhraseCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicPhraseCategory.swift; sourceTree = "<group>"; };
 		8C95B94E1CC77297005C07C7 /* RussianTeacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianTeacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C95B9511CC77297005C07C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C95B9531CC77297005C07C7 /* RussianABCDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianABCDetailViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		264491EA1CD7ACBB0071A652 /* BasicWords */ = {
+			isa = PBXGroup;
+			children = (
+				264491EB1CD7AD300071A652 /* BasicWordsViewController.swift */,
+			);
+			name = BasicWords;
+			sourceTree = "<group>";
+		};
 		8C95B9451CC77297005C07C7 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +125,7 @@
 		8C95B9501CC77297005C07C7 /* RussianTeacher */ = {
 			isa = PBXGroup;
 			children = (
+				264491EA1CD7ACBB0071A652 /* BasicWords */,
 				8CECE5F11CCF960C00E1EFC6 /* Overview */,
 				8CECE5E81CCA5A1700E1EFC6 /* TableViewCell */,
 				8C95B9891CC79F73005C07C7 /* RussianABC */,
@@ -148,6 +163,8 @@
 			children = (
 				8C95B9831CC77C82005C07C7 /* CyrillCharacter.swift */,
 				8C95B9851CC782C0005C07C7 /* DataModel.swift */,
+				264491ED1CD7AFF80071A652 /* BasicPhrase.swift */,
+				264491EF1CD8F4AF0071A652 /* BasicPhraseCategory.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -312,12 +329,15 @@
 				8C95B9861CC782C0005C07C7 /* DataModel.swift in Sources */,
 				8C95B9841CC77C82005C07C7 /* CyrillCharacter.swift in Sources */,
 				8C95B9541CC77297005C07C7 /* RussianABCDetailViewController.swift in Sources */,
+				264491F01CD8F4AF0071A652 /* BasicPhraseCategory.swift in Sources */,
 				8CECE5F51CD20D5300E1EFC6 /* OverviewView.swift in Sources */,
 				8C95B95A1CC77297005C07C7 /* RussianTeacher.xcdatamodeld in Sources */,
+				264491EE1CD7AFF80071A652 /* BasicPhrase.swift in Sources */,
 				8CECE5EF1CCA5AEC00E1EFC6 /* CyrillCharacterTableViewCell.swift in Sources */,
 				8CECE5F31CCF962800E1EFC6 /* OverviewUIViewController.swift in Sources */,
 				8C95B9881CC79E90005C07C7 /* RussianABCTableViewController.swift in Sources */,
 				8C95B9521CC77297005C07C7 /* AppDelegate.swift in Sources */,
+				264491EC1CD7AD300071A652 /* BasicWordsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -449,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
